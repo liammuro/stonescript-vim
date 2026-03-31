@@ -10,9 +10,9 @@ endif
 syn match     ssUnknown       '\S*'
 syn match     ssComment       '//.*'
 
-syn keyword   ssStatement     equip equipL equipR loadout
+syn keyword   ssStatement     equip equipL equipR loadout func 
 syn match     ssStatement     'activate potion'
-syn match     ssIf            '?'
+syn match     ssIf            '[?:]'
 " TODO More precise highlighting for print
 syn match     ssPrintLine     />.*/
 syn match     ssBoolOperator  /[!&|][ a-z]/he=e-1,me=e-1
